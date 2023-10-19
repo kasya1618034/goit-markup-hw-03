@@ -10,25 +10,44 @@ body {
 
 :root {
   --primary-color: #4D5AE5;
+  --dark-color: #2e2f42;
+  --pressed-state: #404BBF;
+  --body-text: #434455;
 }
 
 /* Menu */
 
-.logo {
+.navigation .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   text-decoration: none;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-menu {
   color: #2E2F42;
 }
 
-.logo span {
+.logo .span {
   color: var(--primary-color);
 }
 
-.navigation ul {
+.link {
+  text-decoration: none;
+}
+
+.links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.navigation .list {
   list-style: none;
 }
 
@@ -38,6 +57,10 @@ body {
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: 2%;
+}
+
+.contact-data {
+  font-style: normal;
 }
 
 .contact-data a {
@@ -51,7 +74,23 @@ body {
 .link a:hover,
 .link a:focus {
   text-decoration: underline;
-  color: var(--primary-color);
+  color: var(--pressed-state);
+}
+
+.mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+  text-decoration: none;
+}
+
+.tel {
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text);
+    text-decoration: none;
 }
 
 /* Header */
