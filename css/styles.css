@@ -25,22 +25,22 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--dark-color);
+  color: var(--primary-color);
 }
 
-.logo .link {
+.logo.link {
   text-decoration: none;
 }
 
 .logo .span {
-  color: var(--primary-color);
+  color: var(--dark-color);
 }
 
 .navigation .link {
   text-decoration: none;
 }
 
-.links {
+list.link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -52,7 +52,7 @@ body {
   list-style: none;
 }
 
-.navigation ul li a {
+.navigation .list li a {
   text-decoration: none;
   color: #2E2F42;
   font-weight: 500;
@@ -97,16 +97,14 @@ body {
 /* Hero section */
 .hero {
   background-color: var(--dark-color);
-}
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 2%;
+  line-height: 1.1;
 
-.hero-headline > h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    text-align: center;
-    letter-spacing: 2%;
-    line-height: 1.1;
 }
 
 .hero .hero-button {
