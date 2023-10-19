@@ -211,7 +211,7 @@ team h2 {
   list-style: none;
 }
 
-.filters button {
+.filters-btn {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
   background-color: #E7E9FC;
@@ -224,8 +224,8 @@ team h2 {
   cursor: pointer;
 }
 
-.filters button:hover,
-.filters button:focus {
+.filters-btn:hover,
+.filters-btn:focus {
   color: #FFFFFF;
   background-color: var(--primary-color);
 }
