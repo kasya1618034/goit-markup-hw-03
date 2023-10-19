@@ -1,16 +1,18 @@
 /* Global */
 body {
   text-decoration: none;
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   letter-spacing: 2%;
   line-height: 1.5;
+  background-color: #FFFFFF;
+}
+
+:root {
+  --primary-color: #4D5AE5;
 }
 
 /* Menu */
-.menu {
-  background-color: #FFFFFF;
-}
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -23,7 +25,7 @@ body {
 }
 
 .logo span {
-  color: #4D5AE5;
+  color: var(--primary-color);
 }
 
 .navigation ul {
@@ -49,7 +51,7 @@ body {
 .link a:hover,
 .link a:focus {
   text-decoration: underline;
-  color: #4D5AE5;
+  color: var(--primary-color);
 }
 
 /* Header */
@@ -68,7 +70,7 @@ body {
 
 .main-header button {
   color: #FFFFFF;
-  background-color: #4D5AE5;
+  background-color: var(--primary-color);
   border: none;
   cursor: pointer;
   font-weight: 500;
@@ -100,9 +102,6 @@ body {
 }
 
 /* Section 'what are we doing'*/
-.we-do {
-  background-color: #FFFFFF;
-}
 .we-do ul {
   list-style: none;
 }
@@ -130,7 +129,6 @@ team h2 {
 }
 
 .team-card {
-  background-color: #FFFFFF;
   text-align: center;
 }
 
@@ -150,15 +148,12 @@ team h2 {
 
 /* portfolio */
 
-.portfolio-mid {
-  background-color: #FFFFFF;
-}
 .filters ul {
   list-style: none;
 }
 
 .filters button {
-  color: #4D5AE5;
+  color: var(--primary-color);
   background-color: #E7E9FC;
   border: none;
   font-weight: 500;
@@ -168,7 +163,7 @@ team h2 {
 
 .filters button:hover {
   color: #FFFFFF;
-  background-color: #4D5AE5;
+  background-color: var(--primary-color);
 }
 
 .portfolio-cards li {
