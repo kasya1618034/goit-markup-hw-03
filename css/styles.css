@@ -32,7 +32,7 @@ body {
   text-decoration: none;
 }
 
-.logo .span {
+.logo.span {
   color: var(--dark-color);
 }
 
@@ -198,6 +198,10 @@ team h2 {
 }
 
 .footer .logo span {
+  color: #F4F4FD;
+}
+
+.footer-paragraph {
   color: #F4F4FD;
 }
 
