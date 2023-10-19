@@ -13,6 +13,7 @@ body {
   --dark-color: #2e2f42;
   --pressed-state: #404BBF;
   --body-text: #434455;
+  --button-background: #F4F4FD;
 }
 
 /* Menu */
@@ -214,7 +215,7 @@ team h2 {
 .filters-btn {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
-  background-color: #E7E9FC;
+  background-color: var(--button-background);
   border: none;
   font-weight: 500;
   font-size: 16px;
@@ -227,7 +228,7 @@ team h2 {
 .filters-btn:hover,
 .filters-btn:focus {
   color: #FFFFFF;
-  background-color: var(--primary-color);
+  background-color: var(--pressed-state);
 }
 
 .portfolio-cards.list {
@@ -235,10 +236,20 @@ team h2 {
 }
 
 .portfolio-cards li {
-  list-style: none;
   text-align: left;
 }
 
-.portfolio-cards h3 {
+.portfolio-headline {
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.portfolio-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text)
 }
