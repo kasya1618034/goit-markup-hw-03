@@ -13,7 +13,7 @@ body {
   --dark-color: #2e2f42;
   --pressed-state: #404BBF;
   --body-text: #434455;
-  --button-background: #F4F4FD;
+  --light: #F4F4FD;
 }
 
 /* Menu */
@@ -164,20 +164,36 @@ list.link {
   background-color: #F4F4FD;
 }
 
-team h2 {
-  line-height: 1.1;
+.team-headline {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
 
-.team ul {
+.team-card.list {
   list-style: none;
 }
 
-.team-card {
-  text-align: center;
+.team-element {
+  background-color: #FFFFFF;
 }
 
-.team-card h3 {
+.card-headline {
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.card-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
 }
 
 /* Footer */
@@ -215,7 +231,7 @@ team h2 {
 .filters-btn {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
-  background-color: var(--button-background);
+  background-color: var(--light);
   border: none;
   font-weight: 500;
   font-size: 16px;
@@ -228,7 +244,7 @@ team h2 {
 .filters-btn:hover,
 .filters-btn:focus {
   color: #FFFFFF;
-  background-color: var(--pressed-state);
+  background-color: #404BBF;
 }
 
 .portfolio-cards.list {
@@ -251,5 +267,5 @@ team h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-text)
+  color: var(--body-text);
 }
