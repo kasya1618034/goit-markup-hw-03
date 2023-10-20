@@ -50,6 +50,10 @@ body {
   color: var(--dark-color);
 }
 
+.nav-link.link {
+  text-decoration: none;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   text-decoration: underline;
