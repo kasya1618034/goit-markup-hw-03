@@ -53,33 +53,15 @@ list.link {
   list-style: none;
 }
 
-.navigation .list li a {
-  text-decoration: none;
-  color: #2E2F42;
-  font-weight: 500;
-  line-height: 1.3;
-  letter-spacing: 2%;
+.list {
+  list-style: none;
 }
 
 .contact-data {
   font-style: normal;
 }
 
-.contact-data a {
-  text-decoration: none;
-  color: #434455;
-  font-size: 12px;
-  line-height: 1.3%;
-  letter-spacing: 4%;
-}
-
-.link a:hover,
-.link a:focus {
-  text-decoration: underline;
-  color: var(--pressed-state);
-}
-
-.mail {
+.contact.link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -87,12 +69,10 @@ list.link {
   text-decoration: none;
 }
 
-.tel {
-  font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--body-text);
-    text-decoration: none;
+.contact.link a:hover,
+.contact.link a:focus {
+  text-decoration: underline;
+  color: var(--pressed-state);
 }
 
 /* Hero section */
@@ -127,10 +107,6 @@ list.link {
 }
 
 /* Section Features*/
-.features {
-  text-align: left;
-}
-
 .features .list {
   list-style: none;
 }
