@@ -37,20 +37,15 @@ body {
   color: var(--dark-color);
 }
 
-.navigation .link {
-  text-decoration: none;
-}
-
 .nav-link {
   line-height: 1.5;
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 
-.nav-link.link {
+.link {
   text-decoration: none;
 }
 
