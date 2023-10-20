@@ -33,7 +33,7 @@ body {
   text-decoration: none;
 }
 
-.logo.span {
+.span {
   color: var(--dark-color);
 }
 
@@ -132,28 +132,34 @@ list.link {
   text-align: left;
 }
 
-.features ul {
+.features .list {
   list-style: none;
 }
 
-.features h3 {
+.features-headlines {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: left;
-  color: #2E2F42;
+  color: var(--dark-color);
+}
+.features-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
 }
 
 /* Section 'what are we doing'*/
-.we-do ul {
+.we-do .list{
   list-style: none;
 }
 
-.headlines h2 {
+.doing-headlines {
   font-weight: 500;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.1;
   text-align: center;
   color: #2E2F42;
