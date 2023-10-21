@@ -209,6 +209,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.page-footer p {
+  width: 264px;
+}
+
 .page-footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -260,8 +264,23 @@ body {
   list-style: none;
 }
 
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-item {
+  width: calc(33.33% - 24px);
+  margin-bottom: 24px;
+}
+
 .portfolio-cards li {
   text-align: left;
+}
+.portfolio-cards .cards-item {
+  border-bottom: 1px;
+  border-color: #E7E9FC;
 }
 
 .portfolio-headline {
