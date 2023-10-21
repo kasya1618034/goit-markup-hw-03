@@ -205,12 +205,23 @@ body {
   color: var(--dark-color);
 }
 
+.team h2 {
+  margin-bottom: 72px;
+}
+
 .team-card.list {
   list-style: none;
+  gap: 24px;
 }
 
 .team-element {
   background-color: #FFFFFF;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-element .container {
+  padding: 32px 0px;
 }
 
 .card-headline {
@@ -219,6 +230,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .card-paragraph {
@@ -226,6 +239,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
+  text-align: center;
 }
 
 /* Footer */
