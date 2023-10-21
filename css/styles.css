@@ -20,15 +20,29 @@ body {
 /* Menu */
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.section img {
+  display: block;
+}
 
 .page-header {
-  border-bottom: 1px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .navigation .logo {
@@ -38,8 +52,17 @@ body {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
   text-transform: uppercase;
   color: var(--primary-color);
+}
+
+.navigation .list-item {
+  margin-right: 40px;
+}
+
+.navigation .list-item:last-child {
+  margin-right: 0;
 }
 
 .logo.link {
@@ -56,8 +79,8 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding: 24px 0;
 }
-
 
 .link {
   text-decoration: none;
@@ -77,6 +100,10 @@ body {
 .contact-data {
   font-style: normal;
 }
+
+.contact-data .list {
+  gap: 40px;
+} 
 
 .contact.link {
   font-size: 16px;
@@ -231,6 +258,7 @@ body {
 }
 
 /* portfolio */
+
 .portfolio-mid h1 {
   display: none;
 }
