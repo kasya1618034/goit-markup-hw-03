@@ -18,9 +18,11 @@ body {
 
 /* Menu */
 
-container-menu {
+.page-header .container{
   margin: 0 auto;
-} 
+}
+
+.page-header .container 
 
 .navigation .logo {
   font-family: 'Raleway', sans-serif;
@@ -123,6 +125,10 @@ container-menu {
   list-style: none;
 }
 
+.features h2 {
+  display: none;
+}
+
 .features-headline {
   font-weight: 500;
   font-size: 20px;
@@ -191,13 +197,13 @@ container-menu {
 }
 
 /* Footer */
-.footer {
+.page-footer {
   color: #F4F4FD;
   background-color: #2E2F42;
   letter-spacing: 0.02em;
 }
 
-.footer .logo {
+.page-footer .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -208,7 +214,7 @@ container-menu {
   text-decoration: none;
 }
 
-.footer .logo span {
+.page-footer .logo span {
   color: #F4F4FD;
 }
 
