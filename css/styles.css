@@ -17,12 +17,21 @@ body {
 }
 
 /* Menu */
+.container {
+  width: 1158px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .page-header .container{
   margin: 0 auto;
 }
 
-.page-header .container 
+.page-header {
+  border-bottom: 1px;
+}
 
 .navigation .logo {
   font-family: 'Raleway', sans-serif;
@@ -220,6 +229,10 @@ body {
 }
 
 /* portfolio */
+.portfolio-mid h1 {
+  display: none;
+}
+
 .filters.list {
   list-style: none;
 }
