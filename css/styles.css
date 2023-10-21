@@ -128,7 +128,7 @@ body {
   padding: 188px 0;
 }
 
-.hero-headline {
+.container .hero-headline {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -136,7 +136,7 @@ body {
   max-width: 496px;
 }
 
-.hero-button {
+.container .hero-button {
   color: #FFFFFF;
   background-color: var(--primary-color);
   font-family: "Roboto", sans-serif;
@@ -153,8 +153,8 @@ body {
   height: 56px;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.container .hero-button:hover,
+.container .hero-button:focus {
   background-color: #404BBF;
 }
 
@@ -187,6 +187,7 @@ body {
 /* Section 'what are we doing'*/
 .we-do .list{
   list-style: none;
+  gap: 24px;
 }
 
 .doing-headline {
@@ -197,6 +198,11 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
+}
+
+.we-do .list-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /* our team*/
