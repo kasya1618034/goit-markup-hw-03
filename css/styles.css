@@ -276,8 +276,16 @@ body {
 }
 
 /* portfolio */
-.portfolio-mid h1 {
-  display: none;
+
+.portfolio-mid {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
 }
 
 .filters.list {
