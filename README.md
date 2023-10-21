@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-https://kasya1618034.github.io/goit-markup-hw-02/
+https://kasya1618034.github.io/goit-markup-hw-03/
