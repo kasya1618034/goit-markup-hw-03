@@ -6,6 +6,7 @@ body {
   line-height: 1.5;
   text-decoration: none;
   background-color: #FFFFFF;
+  margin: 0 auto;
 }
 
 :root {
@@ -23,10 +24,6 @@ body {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.page-header .container{
-  margin: 0 auto;
 }
 
 .page-header {
@@ -239,6 +236,10 @@ body {
 
 .filters.list {
   list-style: none;
+}
+
+.filters.list ul {
+  justify-content: center;
 }
 
 .filters-btn {
