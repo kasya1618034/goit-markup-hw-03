@@ -18,6 +18,10 @@ body {
   --accent-color: #E7E9FC;
 }
 
+.visually-hidden {
+  visibility: hidden;
+}
+
 /* Menu */
 .container {
   width: 1158px;
@@ -167,10 +171,6 @@ body {
 .features .list-item {
   width: calc((100%-72px)/4);
   gap: 24px;
-}
-
-.visually-hidden {
-  visibility: hidden;
 }
 
 .features-headline {
