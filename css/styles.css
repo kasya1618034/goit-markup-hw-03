@@ -6,6 +6,15 @@
   padding: 0;
 }
 
+:root {
+  --primary-color: #4D5AE5;
+  --dark-color: #2e2f42;
+  --pressed-state: #404BBF;
+  --body-text: #434455;
+  --light: #F4F4FD;
+  --accent-color: #E7E9FC;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -14,15 +23,6 @@ body {
   text-decoration: none;
   background-color: #FFFFFF;
   margin: 0 auto;
-}
-
-:root {
-  --primary-color: #4D5AE5;
-  --dark-color: #2e2f42;
-  --pressed-state: #404BBF;
-  --body-text: #434455;
-  --light: #F4F4FD;
-  --accent-color: #E7E9FC;
 }
 
 .visually-hidden {
@@ -269,7 +269,7 @@ body {
 }
 
 .container.team-data {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .team-element .container {
