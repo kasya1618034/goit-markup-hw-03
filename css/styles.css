@@ -129,7 +129,7 @@ body {
   padding: 188px 0;
 }
 
-.container .hero-headline {
+.hero-headline {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -162,16 +162,15 @@ body {
 /* Section Features*/
 .features .list {
   list-style: none;
-  gap: 24px;
 }
+
 .features .list-item {
   width: calc((100%-72px)/4);
+  gap: 24px;
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  position: absolute;
-  overflow: hidden;
+  visibility: hidden;
 }
 
 .features-headline {
@@ -217,6 +216,10 @@ body {
   background-color: #F4F4FD;
 }
 
+.container.team-data {
+  width: calc((100%-72px)/4);
+}
+
 .team-headline {
   font-size: 36px;
   line-height: 1.11;
@@ -224,25 +227,22 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
-}
-
-.team h2 {
   margin-bottom: 72px;
 }
 
 .team-card.list {
   list-style: none;
-  gap: 24px;
+  display: flex;
 }
 
 .team-element {
   background-color: #FFFFFF;
-  width: calc((100%-72px)/4);
   border-radius: 0px 0px 4px 4px;
+  padding: 32px 0px;
 }
 
 .team-element .container {
-  padding: 32px 0px;
+  max-width: 264px;
 }
 
 .team img {
@@ -347,7 +347,6 @@ body {
 }
 
 .cards-item {
-  width: calc((100%-48px)/3);
   border-bottom: 1px;
   border-color: #E7E9FC;
   margin-bottom: 24px;
@@ -358,6 +357,8 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  max-width: 360px;
+  width: calc((100%-48px)/3);
 }
 
 .portfolio-headline {
