@@ -166,7 +166,8 @@ body {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin: 48px auto;
+  margin: 0 auto;
+}
 
 .container .hero-button:hover,
 .container .hero-button:focus {
@@ -174,6 +175,9 @@ body {
 }
 
 /* Section Features*/
+.features .list {
+  list-style: none;
+}
 
 .features-list {
   list-style: none;
