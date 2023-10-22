@@ -175,13 +175,17 @@ body {
 }
 
 /* Section Features*/
-.features .list {
+
+.features-list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
-.features .list-item {
+.features-list .list-item {
   width: calc((100% - 72px) / 4);
-  gap: 24px;
+  flex-basis: auto;
 }
 
 .features-headline {
@@ -206,10 +210,12 @@ body {
   list-style: none;
   gap: 24px;
   display: flex;
+  justify-content: space-between;
 }
 
 .list.do-item {
   width: calc((100% - 48px) / 3);
+  flex-basis: auto;
 }
 
 .doing-headline {
@@ -241,6 +247,7 @@ body {
 .team-card.list {
   list-style: none;
   display: flex;
+  justify-content: space-between;
   gap: 24px;
 }
 
@@ -248,6 +255,7 @@ body {
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  flex-basis: auto;
 }
 
 .container.team-data {
