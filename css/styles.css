@@ -185,6 +185,7 @@ body {
 }
 
 /* Section Features*/
+
 .features .list {
   list-style: none;
 }
@@ -219,6 +220,10 @@ body {
 }
 
 /* Section 'what are we doing'*/
+
+.we-do.section {
+  padding-top: 0;
+}
 
 .we-do .list{
   list-style: none;
