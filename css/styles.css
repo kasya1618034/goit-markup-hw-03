@@ -61,8 +61,6 @@ body {
 
 .page-header .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigation {
@@ -80,6 +78,8 @@ body {
   margin-right: 76px;
   text-transform: uppercase;
   color: var(--primary-color);
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .navigation .list-item {
@@ -125,6 +125,7 @@ body {
 .contact-data {
   font-style: normal;
   margin-left: auto;
+  padding-top: 6px;
 }
 
 .contact-data .list {
