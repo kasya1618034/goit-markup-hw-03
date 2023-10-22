@@ -233,6 +233,7 @@ body {
 .team-card.list {
   list-style: none;
   display: flex;
+  gap: 24px;
 }
 
 .team-element {
@@ -245,7 +246,7 @@ body {
   max-width: 264px;
 }
 
-.team img {
+.team-element.team-image {
   display: block;
 }
 
