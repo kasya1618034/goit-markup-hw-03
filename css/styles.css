@@ -8,20 +8,21 @@
 
 :root {
   --primary-color: #4D5AE5;
-  --dark-color: #2e2f42;
+  --dark-color: #2E2F42;
   --pressed-state: #404BBF;
   --body-text: #434455;
   --light: #F4F4FD;
+  --white: #FFFFFF;
   --accent-color: #E7E9FC;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--body-text);
   letter-spacing: 0.02em;
   line-height: 1.5;
   text-decoration: none;
-  background-color: #FFFFFF;
+  background-color: var(--white);
   margin: 0 auto;
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 .page-header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .page-header .container {
@@ -147,7 +148,7 @@ body {
 /* Hero section */
 .hero {
   background-color: var(--dark-color);
-  color: #FFFFFF;
+  color: var(--white);
   padding: 188px 0;
 }
 
@@ -161,7 +162,7 @@ body {
 }
 
 .container .hero-button {
-  color: #FFFFFF;
+  color: var(--white);
   background-color: var(--primary-color);
   font-family: "Roboto", sans-serif;
   border: none;
@@ -180,7 +181,7 @@ body {
 
 .container .hero-button:hover,
 .container .hero-button:focus {
-  background-color: #404BBF;
+  background-color: var(--pressed-state);
 }
 
 /* Section Features*/
@@ -218,6 +219,7 @@ body {
 }
 
 /* Section 'what are we doing'*/
+
 .we-do .list{
   list-style: none;
   gap: 24px;
@@ -243,7 +245,7 @@ body {
 
 /* our team*/
 .team {
-  background-color: #F4F4FD;
+  background-color: var(--light);
 }
 
 .team-headline {
@@ -264,7 +266,7 @@ body {
 }
 
 .team-element {
-  background-color: #FFFFFF;
+  background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   flex-basis: auto;
@@ -302,8 +304,8 @@ body {
 
 /* Footer */
 .page-footer {
-  color: #F4F4FD;
-  background-color: #2E2F42;
+  color: var(--light);
+  background-color: var(--dark-color);
   letter-spacing: 0.02em;
   padding: 100px 0;
 }
@@ -326,11 +328,11 @@ body {
 }
 
 .page-footer .logo span {
-  color: #F4F4FD;
+  color: var(--light);
 }
 
 .footer-paragraph {
-  color: #F4F4FD;
+  color: var(--light);
 }
 
 /* portfolio */
@@ -363,8 +365,8 @@ body {
 
 .filters-btn:hover,
 .filters-btn:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color: var(--white);
+  background-color: var(--pressed-state);
   border: 1px solid transparent;
 }
 
@@ -382,7 +384,7 @@ body {
 
 .cards-item {
   border-bottom: 1px;
-  border-color: #E7E9FC;
+  border-color: var(--accent-color);
   margin-bottom: 24px;
   text-align: left;
   width: calc((100% - 48px) / 3);
@@ -390,7 +392,7 @@ body {
 
 .cards-item .container {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent-color);
   border-top: none;
   max-width: 360px;
 }
