@@ -160,6 +160,7 @@ body {
   font-size: 56px;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .container .hero-button {
@@ -177,7 +178,7 @@ body {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin: 48px auto;
+  margin: 0 auto;
 }
 
 .container .hero-button:hover,
