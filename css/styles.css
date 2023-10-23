@@ -112,7 +112,6 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  text-decoration: underline;
   color: var(--pressed-state);
 }
 
@@ -142,7 +141,6 @@ body {
 
 .contact.link:hover,
 .contact.link:focus {
-  text-decoration: underline;
   color: var(--pressed-state);
 }
 
